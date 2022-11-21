@@ -1,0 +1,40 @@
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+  border: 5px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header {
+  height: 100px;
+  background: skyblue;
+  grid-column: 1/4;
+}
+
+.visual {
+  height: 300px;
+  background: pink;
+  grid-column: 1/4;
+}
+
+.notice {
+  height: 200px;
+  background: red;
+}
+
+.banner {
+  height: 200px;
+  background: blue;
+}
+
+.link {
+  height: 200px;
+  background: green;
+}
+
+.footer {
+  height: 100px;
+  background: hotpink;
+  grid-column: 1/4;
+}
